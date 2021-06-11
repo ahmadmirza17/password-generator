@@ -19,7 +19,8 @@ if nums:
     all += digits
 if syms:
     all += symbols
-
+  
+#Adjustable
 length = 20
 amount = 20
 count = 0
@@ -28,3 +29,4 @@ for x in range(amount):
     count = count + 1
     password = ''.join(random.sample(all, length))
     print("Password", count, ":", password)
+#Included count to keep track of number of password generated
